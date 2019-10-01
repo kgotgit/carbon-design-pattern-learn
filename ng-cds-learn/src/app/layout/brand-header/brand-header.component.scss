@@ -1,0 +1,32 @@
+@import '../../../_variable.scss';
+div{
+    &[role='banner']{
+        background: $white;
+        border-bottom: 1px solid $light-gray-white;
+        height: 40px;
+        margin:-8px;
+        position: relative;
+        z-index: 2;
+        .brand-logo{
+            float:left;
+        }
+        .top-nav-right{
+            float:right;
+            ul{
+                margin:0px;
+                li{
+                    list-style: none;
+                    display: inline;
+                    input{
+                        line-height: 35px;
+                        
+                    }
+                    button{
+                        line-height: 35px;
+                    }
+                }
+            }
+           
+        }
+    }
+}
